@@ -2,3 +2,48 @@
 body{
     font-family: "Merriweather", serif;
 }
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* banner section */
+.banner-container{
+    max-width: 1320px;
+    min-height: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-image: url("../images/assign.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+.banner-content p, h1{
+   color:wheat;
+   
+}
+.banner-content{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.banner-content p{
+   font-size: 52px;
+   font-weight: 700;
+
+}
+.banner-content h1{
+    font-size: 52px;
+    font-weight: 900;
+}
+.second-section-container{
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 90px;
+    border: 2px solid red;
+}
