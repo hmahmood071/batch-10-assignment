@@ -80,3 +80,60 @@ body{
     width: 100%;
     height: 100%;
 }
+/* midnight section starts here */
+.midnight-party-container{
+    width: 1320px;
+    height: 600px;
+    border: 2px solid rebeccapurple;
+    margin: 0 auto;
+    display: flex;
+    background-image:url("../images/assign.jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.leftside-content{
+    width: 50%;
+    height: 600px;
+    display: flex;justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.rightside-content{
+    width: 50%;
+    height: 600px;
+    display: flex;justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.leftside-content h1{
+   color:white;
+   font-size: 64px;
+   font-weight: 900;
+}
+.rightside-content h1{
+   color:white;
+   font-size: 64px;
+   font-weight: 900;
+}
+.leftside-content p{
+    color:wheat;
+    font-size: 18px;
+    font-weight: 400;
+ }
+.rightside-content p{
+    color:wheat;
+    font-size: 18px;
+    font-weight: 400;
+ }
+.rightside-content{
+    width: 50%;
+    height: 600px;
+}
+#midnight-button{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 100px;
+}
+/* midnight section end here */
