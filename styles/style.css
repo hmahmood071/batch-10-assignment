@@ -217,9 +217,9 @@ body{
 .footer-container{
     width: 1320px;
     height:450px;
-    border: 2px solid red;
     background-color: rgb(7, 2, 17);
     margin: 0 auto;
+    padding-top: 10px;
 }
 .contact{
     display: flex;
